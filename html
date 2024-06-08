@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <title>SimpleTech Ecommerce Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <h1>Simple<br>Tech</h1>
+                    <img src="img/logo.jpg" width="150px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="./img/shoppingbag.png" width="30px" height="30px">
+                <img src="./img/menu-icon.png" class="menu-icon" onclick="toggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Easy Way<br> To Build Your PC</h1>
+                    <p>Let us help you assemble your first PC here.<br> Learn how to Build, Customize, and Upgrade your very own PC!</p>
+                    <a href="" class="btn">Explore Now &#10140;</a>
+                </div>
+                <div class="col-2">
+                    <img src="./img/pc-img2.png">
+                </div>
+            </div>
+        </div>
+        </div>
+    <!-- categories -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/Category-2.jpg">
+                    <h4>Pick Your Parts</h4>
+                </div>
+                <div class="col-3">
+                    <img src="./img/Category-1.jpg">
+                    <h4>Assemble</h4>
+                </div>
+                <div class="col-3">
+                    <img src="./img/Category-3.jpg">
+                    <h4>Game</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <div class="small-container">
+        <h2 class="title">Trending Now</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/Product-1.jpg">
+                <h4>ASRock B550M PRO4 AM4 AMD B550 SATA 6Gb/s Mirco ATX AMD Motherboard</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$99.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Product-2.png">
+                <h4>MSI Ventus Geforce RTX 3060 8GB GDDR6 PCI Express 4.0 ATX Video Card RTX 3060 VENTUS 2X 8G 0C</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$269.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Product-3.jpg">
+                <h4>Intel Core i5-12600KF 12th Gen Alder Lake 10-Core 3.7 GHz LGA 1700 125W Desktop Processor BX8071512600KF</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$160.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Product-4.jpg">
+                <h4>JONSBO D41 MESH SC WHITE ATX Computer Case with Sub HD-LCD Display, Support MB: ATX/M-ATX,Support GPU RTX 4090(335-400mm), White</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$160.99</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./img/Latest-1.jpg">
+                <h4>NZXT H9 Flow - All White - CM-H91FW-01 - Dual-Chamber Mid-Tower Airflow Case</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$154.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-2.jpg">
+                <h4>CORSAIR Vengeance RGB 32GB (2 x 16GB) 288-Pin PC RAM DDR5 6000 (PC5 48000) Desktop Memory Model CMH32GX5M2E6000C36W</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$89.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-3.jpg">
+                <h4>LG 32" (31.5" Viewable) 32GN650-B UltraGear QHD 2560 x 1440 1ms 165Hz HDR10 Gaming Monitor with FreeSync Premium and Tilt/Height/Pivot adjustable stand</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$199.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-4.jpg">
+                <h4>MSI Vigor GK30 Combo, 6-Zone RGB GK30 Gaming Keyboard & GM11 Gaming Mouse, Water Repellent & Splash-Proof, 5000 DPI</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$45.99</p>
+            </div>
+            <div class="col-4">
+                <a href="https://www.amazon.com/DeepCool-1800RPM-61-91CFM-Computer-Cooling/dp/B09CKFKXD1/ref=sr_1_2?crid=2PSP7KWEIL8PH&dib=eyJ2IjoiMSJ9.vehzjqwviD0M7BXfhtHEcOiCPACmKcE8CYCWspI0a_AASI2Y8Uih1-qY0VZO-QiVVlJEjRSi7aIn-c2kz083xXB0LX08PKFOTw_WMq8w6DrcDXZnF2cz4wQ9ikPX_GDIBtlWtFGVdqdU-wTklNYafWWNirRGk-7KtCpeHNffxVUWtQRPHzY5uhrcwqZtyjE0ljd200fGg2CmnF1KKHLfMJ6Zp2h_pdHT4cMWaR5pmo4.w-KiXjSJCSliQ2_yvoUhuJjVaZVROpfKn7iP7N3G6Dc&dib_tag=se&keywords=DeepCool%2BFC120%2B3IN1%2BPerformance%2B120mm%2BARGB%2BLED%2BPWM%2BFan%2C%2BDaisy-Chain%2BInterconnect%2BCable%2C%2BBlack%2C%2BTriple%2BPack&qid=1710515597&sprefix=deepcool%2Bfc120%2B3in1%2Bperformance%2B120mm%2Bargb%2Bled%2Bpwm%2Bfan%2C%2Bdaisy-chain%2Binterconnect%2Bcable%2C%2Bblack%2C%2Btriple%2Bpack%2Caps%2C129&sr=8-2&th=1" target="_blank"><img src="./img/Latest-5.jpg">
+                <h4>DeepCool FC120 3IN1 Performance 120mm ARGB LED PWM Fan, Daisy-Chain Interconnect Cable, Black, Triple Pack</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$39.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-6.jpg">
+                <h4>Super Flower Leadex Titanium 1600W 80+ Titanium, 10 Years Warranty, ECO Fanless & Silent Mode, Full Modular Power Supply, Dual Ball Bearing Fan, SF-1600F14HT</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$45.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-7.jpg">
+                <h4>DeepCool AK620 High-Performance CPU Cooler, Dual-Tower Design, 2x 120mm Fluid Dynamic Bearing Fans, 6 Copper Heat Pipes, 260W Heat Dissipation, Black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$45.99</p>
+            </div>
+            <div class="col-4">
+                <img src="./img/Latest-8.jpg">
+                <h4>Sama ARGB-Q5-W White USB3.0 Tempered Glass Micro ATX Tower Gaming Computer Case w/ 3 x 120mm ARGB Fans (Pre-Installed)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$45.99</p>
+            </div>
+        </div>
+    </div>
+    <!-- Offers -->
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="./img/Offer-1.png" class="offer-img">
+            </div>
+            <div class="col-2">
+                <p>Shop our newest suggested Prebuilt PC</p>
+                <h1>ABS Gaming PC Desktop</h1>
+                <br>
+                <small>
+                    <ul>
+                        <li>Windows Home</li>
+                        <li>Inter Core i5 14400F CPU</li>
+                        <li>MSI GeForce RTX 4070 Super Ventus 2X GPU</li>
+                        <li>Gigabyte B760M-C Wifi Motherboard</li>
+                        <li>TeamGroup Delta RGB 32GB DDR5 RAM</li>
+                        <li>WiFi and Bluetooth enabled</li>
+                        <li>Apevia Phenom mATX Case</li>
+                        <li>Kingston 1TB NVMe SSD</li>
+                        <li>VR Ready</li>
+                    </ul>
+                </small>
+                <a href="" class="btn">Buy Now &#10140;</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Customer Feedback -->
+<div class="feedback">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="./img/User-1.jpg">
+                <h3>Harison Williams</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="./img/User-2.png">
+                <h3>Stacy Morrison</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <img src="./img/User-3.jpg">
+                <h3>Henry Anderson</h3>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Brands -->
+    <div class="brands">
+        <div class="small">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./img/brand-1.webp">
+                </div>
+                <div class="col-5">
+                    <img src="./img/Brand-2.png">
+                </div>
+                <div class="col-5">
+                    <img src="./img/Brand-3.jpg">
+                </div>
+                <div class="col-5">
+                    <img src="./img/Brand-4.png">
+                </div>
+                <div class="col-5">
+                    <img src="./img/Brand-5.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and  IOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./img/playstore.png">
+                        <img src="./img/Applestore.png" class="apple">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./img/logo.png">
+                    <p>We Are Here to Help You Pick Parts, Build and Upgrade Your PC!</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                      <li>Coupons</li>
+                      <li>Blog Post</li>
+                      <li>Amazon Storefront</li>
+                      <li>Join Our Newsletter</li>  
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Our Socials</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                        <li>Email</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2024 - SimpleTech Website</p>
+        </div>
+    </div>
+
+    <!--Javascript-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function toggle(){
+            if(MenuItems.style.maxHeight == "0px"){ 
+                
+                MenuItems.style.maxHeight = "200px";
+            }else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+    </body>
+</html>

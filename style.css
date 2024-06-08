@@ -1,0 +1,430 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    flex: 1;
+    display: inline-block;
+    padding: 10px;
+}
+
+.logo img {
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+
+nav ul li:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #383838;
+}
+
+p {
+    color: #383838;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(113, 173, 212);
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background, ease-in, 0.3s;
+}
+
+.btn:hover {
+    background: rgb(46, 73, 90);
+}
+
+.header {
+    background: radial-gradient(rgb(113,173,212),#fff);
+}
+
+.header .row {
+    margin-top: 70px;
+}
+
+.categories {
+    margin: 70px 0;
+}
+
+.col-3 {
+    flex: 30%;
+    padding: 18px;
+    min-width: 250px;
+    margin-bottom: 30px; 
+}
+
+.col-3 img {
+    width: 100%;
+}
+
+
+.col-3 h4 {
+    text-align: center;
+}
+
+.small-container {
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4 {
+    flex-basis: 20%;
+    padding: 10px;
+    min-width: 100px;
+    margin-bottom: 50px;
+    transition: transform, 0.5s;
+    cursor: pointer;
+}
+
+.col-4 img {
+    width: 100%;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title:after {
+    content: '';
+    background: rgb(113,173,212);
+    width: 80px;
+    height: 5px;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col-4 p {
+    font-size: 15px;
+
+}
+
+.rating .fa {
+    color: rgb(255, 206, 44);
+}
+
+.col-4:hover {
+    transform: translateY(-10px);
+}
+/* ----Offer Section ----*/
+.offer {
+    background: radial-gradient(rgb(113,173,212),#fff);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img {
+    padding-right: 10px;
+}
+
+.offer .col-2 p {
+    font-weight: bolder;
+    margin: 30px;
+    text-align: center;
+}
+
+.col-2 h1 {
+    margin-left: 0px;
+}
+
+.offer .col-2 .btn {
+    float: right;
+    margin-right: 210px;
+}
+
+small{
+    color: #2e2e2e;
+}
+
+small li {
+    font-size: 18px;
+    list-style: none;
+    padding: 5px;
+}
+
+.col-2 a {
+    margin-left: 30px;
+}
+.feedback {
+    padding-top: 100px;
+    width: 100%;
+}
+.feedback .col-3 {
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow:  0 0 20px 0px rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition: transform 0.5s;
+}
+
+.feedback .col-3 img {
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.feedback .col-3:hover {
+    transform: translateY(-10px);
+}
+
+.fa.fa-quote-left {
+    font-size: 34px;
+    color: rgb(113,173,212);
+}
+
+.col-3 p {
+    font-size: 16px;
+    margin: 12px 0;
+    color: #777;
+}
+
+.feedback .col-3 h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+/* ------ Brands -------*/
+.brands {
+    margin: 100px auto;
+}
+
+.col-5 {
+    width: 160px;
+}
+
+.col-5 img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover {
+    filter: grayscale(0);
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    background-color: rgb(120, 171, 248);
+    color: #000;
+    font-size: 60px 0 20px;
+}
+
+.footer p {
+    color: #000;
+
+}
+
+.footer h3 {
+    color: #000;
+    margin-bottom:20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    margin-top: 40px;
+    flex-basis: 30%;
+}
+
+.footer-col-2 {
+    flex:1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 15%;
+    text-align: center;
+}
+
+.footer-col-3 h3 {
+    margin-left: 30px;
+}
+
+.footer-col-4 h3 {
+    margin-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+
+    text-align: center;
+    padding: 10px;
+}
+
+
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 150px;
+    padding: 0px;
+}
+
+.app-logo .apple {
+    width: 150px;
+    height: 49px;
+    margin-bottom: 50px;
+}
+
+.footer hr {
+    width: 100%;
+    border: none;
+    background: #000;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+/*media query for menu */
+
+@media only screen and (max-width: 800px){
+
+    nav ul {
+        position: absolute;
+        top: 90px;
+        left: 0;
+        background: rgb(113,173,212);
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #555;
+    }
+
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+
+    }
+    .offer .col-2 .btn {
+        margin-right: 100px;
+    }
+
+}
+/*Media query for 600 screen size or less */
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 100%;
+    }
+
+    .offer .col-2 .btn {
+        margin-right: 190px;
+    }
+}
